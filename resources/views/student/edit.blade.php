@@ -13,7 +13,7 @@
         <div class="col-md-6 mt-2">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" id="name" name="name" value="{{ $student->name }}"
-                placeholder="Student Name">
+                placeholder="Student Name" required>
         </div>
         <div class="col-md-6 mt-2">
             <label for="lastname" class="form-label">Last Name</label>
@@ -42,7 +42,7 @@
         </div>
         <div class="col-md-4 mt-2">
             <label for="birthdate" class="form-label">Birthdate</label>
-            <input type="date" class="form-control" id="birthdate" name="birthdate" value="{{ $student->birthdate }}">
+            <input type="date" class="form-control" id="birthdate" name="birthdate" value="{{ $student->birthdate }}" required>
         </div>
 
         <div class="col-md-4 mt-2">
